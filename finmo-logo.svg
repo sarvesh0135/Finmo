@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="finmoBg" x1="10" y1="10" x2="110" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="55%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <linearGradient id="finmoAccent" x1="30" y1="88" x2="92" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#a7f3d0" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+  </defs>
+  <!-- Rounded Squircle App Icon Background -->
+  <rect x="6" y="6" width="108" height="108" rx="28" fill="url(#finmoBg)" />
+  <!-- Subtle Inner Shield Border -->
+  <rect x="12" y="12" width="96" height="96" rx="23" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2" />
+  <!-- Stylized Geometric 'F' Pillars -->
+  <path d="M36 34C36 30.6863 38.6863 28 42 28H80C83.3137 28 86 30.6863 86 34C86 37.3137 83.3137 40 80 40H48V55H70C73.3137 55 76 57.6863 76 61C76 64.3137 73.3137 67 70 67H48V86C48 89.3137 45.3137 92 42 92C38.6863 92 36 89.3137 36 86V34Z" fill="#ffffff" />
+  <!-- Rising Wealth Spark Arrow -->
+  <path d="M58 84L75 67L82 74L94 52" stroke="url(#finmoAccent)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M83 51H94.5V62.5" stroke="#a7f3d0" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

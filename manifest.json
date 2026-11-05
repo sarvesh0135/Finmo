@@ -1,0 +1,19 @@
+{
+  "name": "FINMO — Personal Finance & Wealth",
+  "short_name": "FINMO",
+  "description": "Private, end-to-end encrypted personal finance tracker and wealth coach.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#059669",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./finmo-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
