@@ -760,7 +760,7 @@ function PG({setActiveTab:e}){const{user:t,selectedMonth:r,refreshKey:n}=or(),a=
     E(null);
     S(presetType);
     A("");
-    P(presetType === "SIP" ? "Mutual Funds" : "Stocks / Equities");
+    M(presetType === "SIP" ? "Mutual Funds" : "Stocks / Equities");
     B("");
     G(u[0] ? String(u[0].id) : "");
     H(presetType === "SIP" ? "Zerodha Coin" : "Zerodha Kite");
@@ -776,7 +776,7 @@ function PG({setActiveTab:e}){const{user:t,selectedMonth:r,refreshKey:n}=or(),a=
     E(item);
     S(item.type || "SIP");
     A(item.name || "");
-    P(item.asset_class || "Mutual Funds");
+    M(item.asset_class || "Mutual Funds");
     B(String(item.amount || ""));
     G(String(item.account_id || (u[0] ? u[0].id : "")));
     H(item.platform || "");
@@ -935,11 +935,11 @@ function PG({setActiveTab:e}){const{user:t,selectedMonth:r,refreshKey:n}=or(),a=
         ]}),
         f.jsxs("button", {type: "button", onClick: () => openAdd("SIP"), className: "flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs sm:text-sm font-bold shadow-md shadow-indigo-600/25 transition-all", children: [
           f.jsx(gc, {className: "w-4 h-4"}),
-          f.jsx("span", {children: "+ Add SIP"})
+          f.jsx("span", {children: "Add SIP"})
         ]}),
         f.jsxs("button", {type: "button", onClick: () => openAdd("BUY"), className: "flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs sm:text-sm font-bold shadow-md shadow-emerald-600/25 transition-all", children: [
           f.jsx(pa, {className: "w-4 h-4"}),
-          f.jsx("span", {children: "+ Record Investment"})
+          f.jsx("span", {children: "Record Investment"})
         ]})
       ]})
     ]}),
