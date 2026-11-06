@@ -1153,7 +1153,7 @@ function PG({setActiveTab:e}){const{user:t,selectedMonth:r,refreshKey:n}=or(),a=
       f.jsx("div", {className: "w-12 h-12 rounded-full bg-rose-50 dark:bg-rose-950/60 text-rose-600 mx-auto flex items-center justify-center", children: f.jsx(ni, {className: "w-6 h-6"})}),
       f.jsxs("div", {children: [
         f.jsx("h3", {className: "text-base font-black text-slate-900 dark:text-white", children: "Delete Investment Record?"}),
-        f.jsxs("p", {className: "text-xs text-slate-500 mt-1", children: ["Remove "", ne.name, "" (", xe(ne.amount, a), ") from your investment ledger? Account balance will be restored."]})
+        f.jsxs("p", {className: "text-xs text-slate-500 mt-1", children: ["Remove \"", ne.name, "\" (", xe(ne.amount, a), ") from your investment ledger? Account balance will be restored."]})
       ]}),
       f.jsxs("div", {className: "flex items-center justify-center gap-3 pt-2", children: [
         f.jsx("button", {type: "button", onClick: () => Se(null), className: "px-4 py-2.5 rounded-xl text-xs font-bold text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800", children: "Cancel"}),
